@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+*{
+    font-family: 'JetBrains Mono', monospace;
+}
+html { 
+    background: url(bg.svg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: fit-content;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+}
+h4{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: fit-content;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+}
+h3{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: fit-content;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+}
+.our-mission h4{
+    width: 1200px;
+}
+.head{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.our-mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links h4{
+    padding: 0;
+}
+.links a:hover{
+    background-color: black;
+    color:white;
+    transition: 0.8s;
+}
+h1,h2,h3,h4{
+    user-select: none;
+    -webkit-user-select: none;
+}
